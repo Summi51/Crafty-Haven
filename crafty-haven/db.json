@@ -1,0 +1,609 @@
+{
+  "crafty": [
+    {
+      "id": 1,
+      "img": "https://www.artycraftykids.com/wp-content/uploads/2016/08/Handprint-Autumn-tree-450x450.jpg",
+      "desc": "A Rich Tapestry of Cultural Heritage:",
+      "blog": "In this blog, we delve into the mesmerizing world of art and craft, exploring the rich tapestry of cultural heritage it weaves. From the delicate Japanese origami to the vibrant Indian Rangoli, we uncover the artistic traditions that have stood the test of time and continue to mesmerize us with their beauty"
+    },
+    {
+      "id": 2,
+      "img": "https://i.ytimg.com/vi/3bySyzxcpe4/maxresdefault.jpg",
+      "desc": "The Renaissance of Handmade Crafts:",
+      "blog": "In an age dominated by technology and mass production, we witness a renaissance of handmade crafts. Discover how artisans around the world are reviving ancient techniques, embracing sustainability, and rekindling the appreciation for unique, handcrafted pieces that bear the mark of human touch."
+    },
+    {
+      "id": 3,
+      "img": "https://i.ytimg.com/vi/0jDCK_RHQuI/maxresdefault.jpg",
+      "desc": "Art Therapy: Healing through Creativity:",
+      "blog": "Beyond aesthetics, art and craft play a profound role in healing and self-discovery. Explore the therapeutic benefits of creative expression and how art therapy has become a transformative tool for individuals facing emotional challenges and seeking personal growth."
+    },
+    {
+      "id": 4,
+      "img": "https://i.pinimg.com/736x/10/ae/30/10ae30ccf7ad5c7d078e5dbb7da950b0.jpg",
+      "desc": "Contemporary Art Movements: A Canvas of Ideas:",
+      "blog": "The modern art world is a canvas of diverse ideas, pushing boundaries and challenging conventions. From surrealism to abstract expressionism, we take a glimpse into influential contemporary art movements that have shaped our understanding of art and redefined artistic boundaries."
+    },
+    {
+      "id": 5,
+      "img": "https://www.kidsartncraft.com/wp-content/uploads/2022/07/Simple-Paper-Plate-Craft-Ideas-For-Kids-Featured-Image.jpg",
+      "desc": "DIY Crafts: Embracing Creativity at Home:",
+      "blog": "Embark on a journey of do-it-yourself (DIY) crafts, where creativity knows no bounds. Learn how DIY projects empower individuals to express themselves, personalize their living spaces, and create meaningful gifts for loved ones"
+    },
+    {
+      "id": 6,
+      "img": "https://www.parents.com/thmb/we0sETq_qUVAMT7P9fRUKPbBehA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/550_102101468-42320626f0cd461eacc5893a2743ed90.jpg",
+      "desc": "Preserving Traditional Crafts in a Modern World:",
+      "blog": "As globalization takes center stage, preserving traditional crafts becomes essential to safeguard cultural identity. We explore the efforts made by artisans, organizations, and governments to protect fading crafts and promote sustainable livelihoods."
+    },
+    {
+      "id": 7,
+      "img": "https://womenmadecraft.com/wp-content/uploads/2018/03/49933649_2226270334277662_1914310120072885961_n.jpg",
+      "desc": "Art and Craft in Education: Nurturing Young Minds:",
+      "blog": "Discover the significant role of art and craft in education and child development. From fostering creativity to enhancing problem-solving skills, we examine how integrating art into curricula shapes well-rounded, imaginative individuals."
+    },
+    {
+      "id": 8,
+      "img": "https://thumbs.dreamstime.com/b/stone-plumeria-craft-art-design-23854746.jpg",
+      "desc": "The Origins of Origami: Unfolding Centuries of History",
+      "blog": "Explore the origins of origami and its roots in Japanese culture. Unravel the early beginnings of paper folding as a form of art, ritual, and communication, and how it evolved over the centuries into the diverse art form we know today."
+    },
+    {
+      "id": 9,
+      "img": "https://i.ytimg.com/vi/rGItayuY39E/hqdefault.jpg",
+      "desc": "Mastering the Folds: The Beauty of Simplicity:",
+      "blog": "Discover the elegance of simple folds that give rise to complex and intricate designs. Learn about the basic folds and their role in shaping various origami creations, from delicate animals to mesmerizing geometric shapes."
+    },
+    {
+      "id": 10,
+      "img": "https://www.k4craft.com/wp-content/uploads/2016/10/diy-diwali-project-ideas-children-schools.png",
+      "desc": "Beyond Tradition: Modern Origami Artistry:",
+      "blog": "Origami has evolved beyond traditional designs, pushing the boundaries of creativity and imagination. Delve into the world of modern origami artists who transform paper into astonishing sculptures that challenge our perceptions of what is possible with a simple fold."
+    },
+    {
+      "id": 11,
+      "img": "https://www.k4craft.com/wp-content/uploads/2020/10/womens-day-crafts-to-celebrate.jpg",
+      "desc": "Origami as Mindfulness: Folding Your Way to Serenity:",
+      "blog": "Origami's meditative qualities make it an art of mindfulness. Explore how the process of folding paper can provide solace, reduce stress, and enhance focus, making it a therapeutic practice for people of all ages."
+    },
+    {
+      "id": 12,
+      "img": "https://www.k4craft.com/wp-content/uploads/2020/03/DIY-handmade-carnation-Yan-paper-greeting-card.jpg",
+      "desc": "Mathematical Marvels: The Geometry of Origami:",
+      "blog": "Uncover the math behind origami's magic. Discover the interplay of geometry and symmetry in origami designs, and how it has fascinated mathematicians and educators alike, leading to applications in science and engineering."
+    },
+    {
+      "id": 13,
+      "img": "https://funfamilycrafts.com/wp-content/uploads/2018/05/ClayPotCrafts.jpg",
+      "desc": "Origami in Space: Unfolding the Possibilities:",
+      "blog": "The concept of origami extends beyond Earth's bounds. Learn about the innovative use of origami in space exploration, including deployable structures in satellites and spacecraft, and how it revolutionizes the way we approach space technology."
+    },
+    {
+      "id": 14,
+      "img": "https://www.theidearoom.net/wp-content/uploads/2017/03/847991c4600d3c18960f587f32b3a987.jpg",
+      "desc": "Environmental Impact: The Sustainability of Paper Art:",
+      "blog": "As paper art gains popularity, it raises questions about its environmental impact. Investigate the efforts made by artists and origami enthusiasts to promote sustainable practices, from using recycled paper to advocating for responsible consumption."
+    },
+    {
+      "id": 15,
+      "img": "https://images-cdn.ubuy.co.in/634e45ab0031435a6827dc02-card-crafting-explosion-arts-and-crafts.jpg",
+      "desc": "Origami Legends: Remembering Masters of the Craft:",
+      "blog": "Pay homage to legendary origami artists who left a lasting impact on the art form. Celebrate their contributions, artistic vision, and enduring legacy, which continues to inspire generations of paper folders."
+    },
+    {
+      "id": 16,
+      "img": "https://i.pinimg.com/550x/93/63/34/9363343fb2b6493a3af5d9daeaf74825.jpg",
+      "desc": "Cultural Fusion: The Global Reach of Origami:",
+      "blog": "Origami's charm transcends borders, as it gains popularity worldwide. Examine how different cultures have embraced and integrated origami into their artistic traditions, creating a unique blend of styles and techniques."
+    },
+    {
+      "id": 17,
+      "img": "https://media.karousell.com/media/photos/products/2023/6/30/barbie_doll_house_1688113001_5fe4e713_progressive_thumbnail.jpg",
+      "desc": "Beyond Paper: Exploring Unconventional Origami Materials:",
+      "blog": "Traditionally, origami is associated with paper, but artists are pushing the limits by experimenting with unconventional materials. Witness the evolution of origami as artists fold everything from metal to fabric, opening new avenues for artistic expression."
+    },
+    {
+      "id": 18,
+      "img": "https://www.desiblitz.com/wp-content/uploads/2020/06/12-Indian-Arts-Crafts-you-can-Learn-at-Home-f-685x336.jpg",
+      "desc": "Folding the Future: The Endless Possibilities of Origami:",
+      "blog": "As origami continues to evolve, we ponder the limitless possibilities that lie ahead. Speculate on the potential of origami to influence fields such as architecture, medicine, and beyond, and how it will shape the creative landscape in the years to come."
+    },
+    {
+      "id": 19,
+      "img": "https://m.media-amazon.com/images/I/71JldQzSI-L._AC_UF1000,1000_QL80_.jpg",
+      "desc": "Origami as Community: Fostering Connections through Art:",
+      "blog": "Origami brings people together, fostering a sense of community among enthusiasts worldwide. Explore how origami clubs, conventions, and online communities play a pivotal role in connecting like-minded individuals passionate about the art."
+    },
+    {
+      "id": 20,
+      "img": "https://m.media-amazon.com/images/I/51cAWLCqmBL._AC_.jpg",
+      "desc": "Origami and Storytelling: Folding Tales of Myth and Fantasy:",
+      "blog": "Step into a world of storytelling through origami. Discover how artists use folded paper to narrate tales of myths, fairytales, and fantasy, breathing life into characters and settings with their creative prowess."
+    }
+  ],
+  "craftblogs": [
+    {
+      "id": 1,
+      "title": "Crafty Chica by Kathy Cano-Murillo",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2019/09/Kathy-Cano-Murillo-from-Crafty-Chica.jpg",
+      "desc": "Kathy’s passion is to inspire people to bring out their “inner sparkle”. An author of many books, creativepreneur and public speaker; Kathy is promoting positivity through creativity.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2019/09/Crafty-Chica-by-Kathy-Cano-Murillo.jpg",
+      "blog": "Crafty Chica features wonderful Latinocentric arts and crafts. Her designs are full of color and life! There is so much to learn from Kathy’s projects and tutorials. Sifting through all her crafty goodness just brings a smile to your face 🙂"
+    },
+    {
+      "id": 2,
+      "title": "Sugar & Cloth Craft Blog by Ashley Rose",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Ashley-Rose-From-Sugar-And-Cloth.jpg",
+      "desc": "Ashley Rose always had an interest in DIY craft and design, but her passion for it didn’t resurface until several years into her adulthood. After deciding to take a gap year from university that stretched into several, she decided to dive right into her passion. Thus Sugar & Cloth was born, and nine years later, it’s going stronger than ever. She loves all things DIY, and that is the main scope of her blog.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Sugar-Cloth.jpg",
+      "blog": "The principle of her blog seems to be pleasing to the eye, not too time-consuming and complicated, and a joy to make. Which is exactly what they are. She shares carefully constructed, and aesthetically pleasing themed projects and crafts."
+    },
+    {
+      "id": 3,
+      "title": "Hello Hydrangea by Lindsey Campbell",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Lindsey-From-Hello-Hydrangea.jpg",
+      "desc": "Lindsey Campbell is an artist, weaver, and craft instructor. She helps and has helped thousands of students perfect their weaving skills. She shares her hard-earned expertise in her book, Welcome to Weaving: The Modern Guide. Her passions include weaving, macramé and helping other people to realize their creative potential. Her courses would make an excellent birthday gift.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Hello-Hydrangea.jpg",
+      "blog": "Right off the bat, her website is aesthetically pleasing to the eye and very well designed. The minimalist theme fits in quite well with her mission and site. She shares her expertise and helpful tips and tricks on everything to do with weaving in her blog and weekly newsletter."
+    },
+    {
+      "id": 4,
+      "title": "Yarn Harlot by Stephanie Pearl-McPhee",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Steph-Pearl-McPhee-Yarn-Harlot.jpg",
+      "desc": "Stephanie has been writing and blogging about life and her knitting pursuits for over 14 years. A highly acclaimed author and knitting expert. Stephanie’s blog has a strong readership and for that she is so very grateful.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Yarn-Harlot.jpg",
+      "blog": "What Stephanie shares on her blog about her life is honest and heartfelt, sometimes sharing her most difficult times. Stephanie’s knitting projects are peppered throughout her life commentary. Her knitting books are full of humor and contain fabulous knitting tips and tricks."
+    },
+    {
+      "id": 5,
+      "title": "Paper and Stitch by Brittni Mehlhoff",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Brittni-Mehlhoff-From-Paper-Stich.jpg",
+      "desc": "With a background in fine art and a careful, fun, and systematic approach, Brittni Mehlhoff is excellent at what she does. She loves all things Style, DIY, and Design. Paper & Stich was started in 2008 with a specific idea in mind: sharing what Brittni knows and loves. But she has also branched out onto other subjects, interior design, quick and easy recipes, and her musings on travel.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Paper-and-Stitch.jpg",
+      "blog": "Why We Love It: Paper & Stich has tutorials, projects, and posts about retro and classic designs, with a perfect modern twist. Brittni loves to share her opinions and thoughts on all sorts of subjects, from fashion to little things going on in her life. Her style of writing always makes for a fun and exciting read."
+    },
+    {
+      "id": 6,
+      "title": "Flamingo Toes by Bev McCullough",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Bev-from-Flamingo-Toes.jpg",
+      "desc": "Bev’s passion to create stemmed from growing up in a family of artists and seamstresses. She began sewing as a teenager and made her own clothes and room decor. Her style is a mix between modern and vintage. Her love for DIY, crafting and sewing has grown to include jewelry making, furniture refinishing and anything else that inspires her.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2019/11/Flamingo-Toes-by-Bev.jpg",
+      "blog": "Why We Love It: Bev’s creations are adorable and so much fun! Her designs and projects are beautiful and it’s hard not to want to make all of them!"
+    },
+    {
+      "id": 7,
+      "title": "The Idea Room by Amy Huntley",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Amy-Huntley-From-The-Idea-Room.jpg",
+      "desc": "Amy Huntley is a photographer, proud mother of five, and loves all things craft and outdoors. A former Science teacher, she now spends her days doing what she loves most. Being a stay-at-home mom, and running her blog the Ideas Room. She shares all sorts of creative projects.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/The-Idea-Room.jpg",
+      "blog": "The Ideas Room is mainly aimed at women looking to add more creativity to their lives. She shares easy projects, from papercraft to embroidery. If you are interested in interior design, she has plenty of that as well."
+    },
+    {
+      "id": 8,
+      "title": "Positively Splendid by Amy Bell",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Amy-Bell-From-Positively-Splendid.jpg",
+      "desc": "Growing up in a household filled with painting and sewing, Amy from Positively Splendid got into crafting and creativity from a young age. The blog began in 2010 with an aim to help others discover their creativity. The tutorials are full of wonderful photos, created to showcase what can be made with two hands.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Positively-Splendid.jpg",
+      "blog": "The photos used for each of Amy’s tutorials are incredibly helpful. They guide you along each step of how and what to do. Wonderful inspiration for home decor ideas and crafty projects for the holiday seasons."
+    },
+    {
+      "id": 9,
+      "title": "Crafterholic by Fern",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Fern-From-Crafterholic.jpg",
+      "desc": "Fern is the brain behind the wonderful site, Crafterholic. She is a self-confessed craft addict, a jewelry and handmade greeting card designer. She created her website to share all the beautiful things she finds inspiring. She also likes to interview people who make homemade items, and ask how they make what they do and their thoughts.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Crafterholic.jpg",
+      "blog": "Crafterholic shares all sorts of tutorials, tidbits, and articles from all across the crafting blogosphere. This makes it a wonderful place if you are looking for a good read or some inspiration. Her jewelry and greeting card designs are beautiful and well worth a look."
+    },
+    {
+      "id": 10,
+      "title": "The Crafty Angels by Angela Jose",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Angela-Jose-From-The-Crafty-Angels.jpg",
+      "desc": "Angela Jose is a Malayalee, (An Indian from the state of Kerala) who lives in Karnataka with her husband and daughter. She worked as an Engineer for many years, and she had her child and took a maternity break. During this time, Angela discovered her love of craft and DIY. Now she balances running the blog, working at her job, and spending time with her family.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/The-Crafty-Angels.jpg",
+      "blog": "Angela shares all sorts of crafting basics and simple but effective crafty tutorials. She also posts travel ideas and suggestions, as well as helpful tips for crafting in India. She creates some unique projects."
+    },
+    {
+      "id": 11,
+      "title": "The Crafted Sparrow by Rebecca Lopez",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Rebecca-From-The-Crafted-Sparrow.jpg",
+      "desc": "The Crafted Sparrow was started several years ago, in 2011, by Rebecca. Previously, she worked in restaurant and retail management. But one day, Rebecca decided that she would start her career in blogging, and hasn’t looked back since. She aims to share inexpensive, simple craft projects so that everyone has a chance to create and style their home.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/The-Crafted-Sparrow.jpg",
+      "blog": "Simple and inexpensive craft tutorials? Check. Writing with lots of heart? Check. Beautifully designed projects and photography. Check. Rebecca has a beautiful site, well worth your time."
+    },
+    {
+      "id": 12,
+      "title": "Rosyscription by Shannon",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Shannon-From-Rosyscription.jpg",
+      "desc": "Madigan Made has now become Rosyscription. What is a Rosyscription? Well, according to the website owner, Shannon, it is a ‘prescription’ for a rosy and creative life? It’s merely… Make. Dwell. Glow. Celebrate. Repeat as needed. Shannon is a pharmacist by day, and a creative blogger by night.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Rosyscription.jpg",
+      "blog": "Rosyscription has a pretty, elegant theme, fitting in perfectly with Shannon’s intention for the site. She shares all sorts of beautiful and straightforward DIY projects, from home decor to things to delight your little ones."
+    },
+    {
+      "id": 13,
+      "title": "Aunt Peaches by Amanda Evanston",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Amanda-Evanston-From-Aunt-Peaches.jpg",
+      "desc": "Aunt Peaches, a craft site, but why would it be called that? The answer, Aunt Peaches aka Amanda Evanston is an artist, maker, and self-confessed hardcore sequin enthusiast. She uses her blog as a creative outlet, and shares all the beautiful creations she finds in the world.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Aunt-Peaches.jpg",
+      "blog": "Amanda loves to write, make and talk about interesting crafty things, and that shines through on her blog. She posts about all sorts of things, from her journey in art to Halloween decorations."
+    },
+    {
+      "id": 14,
+      "title": "Creative Green Living by Carrissa Bonham",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Carissa-From-Creative-Green-Living.jpg",
+      "desc": "Carissa from Creative Green Living has three main loves, being creative, looking after the environment, and making healthy choices for her family. She has combined all of them with her blog. She aims to help families by making it easier to find beautiful and easy solutions to everyday problems and still staying healthy and green.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Creative-Green-Living.jpg",
+      "blog": "Creative Green Living has an excellent ethos and standard of quality. I love their creative solutions to making environmentally friendly versions of essential products. She also shares lots of exciting projects for families and kids to do together."
+    },
+    {
+      "id": 15,
+      "title": "I Heart Naptime by Jamielyn Nye",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Jamielyn-Nye-From-I-Heart-Naptime.jpg",
+      "desc": "Jamielyn Nye’s crafty ideas help to create wonderful moments. Her blog contains tips for entertaining, craft projects and recipes. One of her passions is to be thrifty and repurposing old treasures.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/I-Heart-Naptime.jpg",
+      "blog": "There are fab holiday season craft tutorials to follow on I Heart Naptime. The Chalkboard Advent calendar is super 🙂 The sewing and DIY projects are fun and easy to follow. The home decor ideas look gorgeous."
+    },
+    {
+      "id": 16,
+      "title": "Skip To My Lou by Cindy Hopper",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Cindy-From-Skip-To-My-Lou.jpg",
+      "desc": "Skip to my Lou is the work of Cindy Hopper who has a Bachelor Degree in Art Education. Her site offers fabulous inspiration with free patterns, downloads, and ideas for craft projects. Celebrating holidays, cooking, sewing and creating is what Skip To My Lou is all about. The ideas shared are so you can make memories with your family and friends.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Skip-To-My-Lou.jpg",
+      "blog": "There is plenty to enjoy on Skip To My Lou. Lots of sewing, crochet and crafting projects to try. The tutorials are easy to follow. Holiday celebration ideas are varied and super fun. Both kids and adults are catered for. The crocheted flowers tutorial is one of my favorites."
+    },
+    {
+      "id": 17,
+      "title": "Not Martha by Meagan Reardon",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Megan-From-Not-Martha.jpg",
+      "desc": "Megan post pages about how to make things. The blog Not Martha has been around since 2001 and has heaps of ideas that Megan has tried over the years.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Not-Martha.jpg",
+      "blog": "Not Martha has some wonderful ideas, and as the site is over 17 years old, there’s plenty to choose from. It’s worth noting that due to some of the posts being old, the supplies may have changed or are not available. Megan has been very transparent about that."
+    },
+    {
+      "id": 18,
+      "title": "Crafts On Sea by Kate Williams",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Kate-From-Craft-On-Sea.jpg",
+      "desc": "Inspired by her life by the sea and her passion for craft, Kate loves to share her crafty projects for both kids and adults. She also provides lifestyle tips for families.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Crafts-on-Sea.jpg",
+      "blog": "Craft on Sea is fabulous for kids and kids at heart. Easy, achievable craft projects designed by Kate to provide fun for the whole family. Her free coloring pages are lovely."
+    },
+    {
+      "id": 19,
+      "title": "Heart and Handmade by Claire",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Claire-From-Hearthandmade.jpg",
+      "desc": "Heart and Handmade are all about simple crafts and DIY projects that don’t take forever to make. The tutorials and guides offered by Claire help people craft all sorts of crafty goodness to decorate their homes.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Heart-Handmade.jpg",
+      "blog": "Claire has a wonderful sense of humor! When you read “I want to give women with no frickin time, easy and effective solutions to fill the crafty shaped hole in their lives,” it gives you an indication of the way she approaches crafting. Her diy crafts and tutorials are super easy to follow, and they are great fun!"
+    },
+    {
+      "id": 20,
+      "title": "Claireabelle Makes By Claire",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Claire-from-Claire-Belle-Makes.jpg",
+      "desc": "Claireabellemakes is the creative lifestyle brand of Claire Wilson. Her designs focus is about bringing color and positivity into your life. Her creative blog strives to be a source of inspiration and positivity in the handmade world.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Clarieabellmakes.jpg",
+      "blog": "Claires’ designs are superb. Her blogging about her creative life in Cambridge makes for interesting reading."
+    },
+    {
+      "id": 21,
+      "title": "A Pair And A Spare by Geneva Vanderzeil",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Geneva-Vanderzeil-From-A-Pair-A-Spare.jpg",
+      "desc": "Originally from Australia, Geneva created her blog as a journal for her DIY project. Geneva has published a best selling book called DIY Fashionista. Her passion has led to many opportunities in her career.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/A-Pair-And-A-Spare.jpg",
+      "blog": "A Pair And A Spare is a feast for the eyes! Sensational photography and interesting reading makes it a blog to return to time and time again. Full of great DIYs, sewing tutorials and design tips."
+    },
+    {
+      "id": 22,
+      "title": "Crafts By Amanda by Amanda Formaro",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Amanda-Formaro-From-Crafts-By-Amanda.jpg",
+      "desc": "Amanda Formano loves to cook, bake and be creative. Her previous career was in finance; then she worked from home building her business in craft and baking blogging. Amanda loves to share all her tips and tricks for creative crafts and delicious recipes.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Crafts-by-Amanda.jpg",
+      "blog": "There are plenty of super crafty ideas for adults and kids on Crafts by Amanda. There is heaps of inspiration for the holiday seasons and fun activities to do as a whole family."
+    },
+    {
+      "id": 23,
+      "title": "Tip Junkie by Laurie Turk",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Laurie-Turk-From-The-Tip-Junkie.jpg",
+      "desc": "Laurie Turk loves to create and embellish. For over 12 years she has been producing printables for busy Moms. Now Tip Junkie promotes fabulous crafty ideas and products from everyday women.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Tip-Junkie.jpg",
+      "blog": "Tip Junkie features excellent crafting ideas featuring other crafters submissions. Plenty of DIY ideas and themed holiday craft suggestions."
+    },
+    {
+      "id": 24,
+      "title": "Jenny Batt by Jenny Batt",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Jenny-Batt-From-JennyBatt.jpg",
+      "desc": "Jenny is passionate about party planning and home decorating ideas. Her background is in art and illustration. Her blog showcases what she loves to paint and encourages everyone to produce their own art.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Jenny-Batt.jpg",
+      "blog": "If you are looking for ideas for parties and celebrations then the inspiration found on Jenny’s blog is great! Her craft tutorials are fun, modern and doable 🙂 Her illustrations are clever."
+    },
+    {
+      "id": 25,
+      "title": "Lia Griffith by Lia Griffith",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Lia-Griffith-From-Lia-Griffith.jpg",
+      "desc": "Lia grew up surrounded by family members who were artists. DIY was in their blood. It was only natural that Lia chose a career which focuses on living a handcrafted lifestyle. Having followed a career of design, she realized that she was a teacher at heart. Her craft projects are achievable for all levels.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Lia-Griffith.jpg",
+      "blog": "The craft projects offered at Lia Griffith are gorgeous. The fact that all crafting skill levels are catered for is a bonus. The tutorials are easy to follow. The paper flower crafts are superb and come up a treat when made."
+    },
+    {
+      "id": 26,
+      "title": "My Poppet by Cintia",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Cintia-from-My-Poppet.jpg",
+      "desc": "Cintia lives a life full of color. Her passions are repurposing second-hand vintage styles, creating fabulous craft tutorials and costumes for children. Cintia has been blogging since 2007 and loves to share all the joys of craft with her readers.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/My-Poppet.jpg",
+      "blog": "Cintia’s writing is talented and creative. Reading her posts and following her craft tutorials is a joy! She is a wiz at repurposing materials and other items."
+    },
+    {
+      "id": 27,
+      "title": "Oh The Lovely Things! by Clemence",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Clemence-From-All-The-Lovely-Things.jpg",
+      "desc": "Clemence loves all sorts of crafty things, from DIY solutions to everyday problems, to free crafty printables. Oh The Lovely Things is a treasure trove of all things that Clemence, the owner, loves, hence the name. She likes to do a weekly round-up of interesting and fun DIY projects she has found across the net.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Oh-The-Lovely-Things.jpg",
+      "blog": "Not only is it a great craft site, but she’s also branched out to share her thoughts and advice on other topics too. Hair, fashion and style, and some great recipes are only the tip of the iceberg."
+    },
+    {
+      "id": 28,
+      "title": "P.S I Made This by Erica Domesek",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Erica-Domesek-From-PS-I-Made-This.jpg",
+      "desc": "Craft The Life You Want is the motto of the craft and DIY site called PS… I Made This. Erica Domesek, the founder, has been running it since 2009, as a creative outlet for her talents. She had no way of knowing it would turn into something much, much more. It’s a very successful DIY Lifestyle website, with a focus on stylish, personal DIY projects and ideas. Now working with a team, Erika keeps putting forth good ideas.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/PS-I-Made-This.jpg",
+      "blog": "Erica has a nifty section on her blog called Craft Math. It’s where you take one item, add a few things, and you’ve made something handmade and pleasing to the eye. They are comfortable and simple projects, very well designed. Her project photos are clear; they alone are enough to make you want to start crafting."
+    },
+    {
+      "id": 29,
+      "title": "Poppy Talk by Jan Halvarson and Earl Einarson",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Jan-Halvarson-and-Earl-Einarson-From-Poppytalk.jpg",
+      "desc": "13+ years of blogging about craft, design, and DIY has made Jan Halvarson and Earl Einarson experts in their craft. They work as a team, running Poppytalk, which has 9+ million readers worldwide. They use their background in design and media to further their work.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Poppytalk.jpg",
+      "blog": "Poppy Talk is full of craft inspiration for DIY decor and design. The photography is gorgeous, and the ideas are fab! I love the Old Tins DIY makeover idea. Upcycling is always a great idea."
+    },
+    {
+      "id": 30,
+      "title": "Shrimp Salad Circus by Lindsay Ponta",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Lindsay-Porta-From-Shrimp-Salad-Circus.jpg",
+      "desc": "Life can be a complete blur sometimes. Often, you wish you could sit down and take some time to be creative, but there’s never enough time? Or is there? Solving that problem is the main focus of Lindsay’s site, Shrimp Salad Circus. She is known for her Craft & DIY projects, but her hobbies include hand-lettering, cooking and baking, and photography.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Shrimp-Salad-Circus.jpg",
+      "blog": "Lindsay is a bright, bubby soul whose personality shines through on her blog. Her site has a happy, positive vibe to it, and her projects are a joy to read and follow. One thing we like is there are lots of free printables she creates for you to use."
+    },
+    {
+      "id": 31,
+      "title": "Jacks and Kate by Krishna",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Krisha-From-Jacks-and-Kate.jpg",
+      "desc": "Jacks & Kate is a lifestyle and DIY blog run by a homeschooling mum of four, Krisha. She always loved to craft, but never tried to pursue it as a career until five years ago. That was when she started blogging, and she hasn’t stopped since. As a big part of her life are her kids, it would make sense the site focuses on crafts for kids, and projects you can do as a family. She is very creative and loves photography and crafting.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Jacks-and-Kate.jpg",
+      "blog": "When Krisha talks about crafting for and with your kids, she knows what she’s talking about. She comes up with all sorts of ideas using everyday recycled materials, and the results are amazing! A big part of her projects is ingenuity, and we love that."
+    },
+    {
+      "id": 32,
+      "title": "The Sweetest Occasion by Cyd Converse",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Cyd-Converse-From-The-Sweetest-Occasion.jpg",
+      "desc": "Creating that time to spend with her friends and family is something Cyd Converse loves to do, and that love is what drives her website. She is passionate about home decor, entertaining, and living a stylish but straightforward and clutter-free lifestyle. She started this website in honor of her grandmother, who kickstarted and embodied her dreams and passions.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/The-Sweetest-Occasion.jpg",
+      "blog": "This site is beautiful, and it’s a joy to scroll through the enormous amounts of content. She puts time and energy into creating her recipes and ideas. The photos make the food look mouthwatering!"
+    },
+    {
+      "id": 33,
+      "title": "Tatertots and Jello by Jennifer Hadfield",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Jennifer-Hadfield-From-Tatertots-and-Jello.jpg",
+      "desc": "Jennifer loves doing anything creative and tries to make things from simple materials. Remaking things into something even better. The site aims to encourage other people’s creativity and to support them in their journey.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Tatertots-and-Jello.jpg",
+      "blog": "Plenty of craft inspiration to be found here. Great tutorials on paper craft and holiday season crafts."
+    },
+    {
+      "id": 34,
+      "title": "Sincerely, Kinsey by Kinsey Mhire",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Kinsey-From-Sincerely-Kinsey.jpg",
+      "desc": "Kinsey Mhire is a photographer by trade and all-round creative soul. She is passionate about many creative pursuits, from fashion, art to graphic design. Her blog is an ever-shifting reflection of her interests. With her website, she wants to inspire others from making a living out of what they love.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Sincerely-Kinsey.jpg",
+      "blog": "Her photography is amazing, so detailed, crisp and clear. They are a joy to feast the eyes on. She shares free printables and crafts from time to time,. Her thoughts and photo essays on her life make an interesting read."
+    },
+    {
+      "id": 35,
+      "title": "Say Yes by Liz Stanley",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Liz-Stanley-From-Say-Yes.jpg",
+      "desc": "Liz is a proud mother of three kids living in San Fransico, California. She created Say Yes to reflect her passions, personal and stylish living and crafts, with focus on family life. As well as craft and home decor, she shares her thoughts on family, education and sometimes, current events. Now with a dedicated team of talented writers and photographers, Say Yes will continue to deliver inspiration.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Say-Yes.jpg",
+      "blog": "This blog is a true inspiration. Whenever you are out of ideas, this website is the answer! Be careful though; you might enjoy it so much that the hours will quickly zip by. 🙂"
+    },
+    {
+      "id": 36,
+      "title": "I Spy DIY by Jenni Radosevich",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Jenni-Radosevich-From-I-Spy-DIY.jpg",
+      "desc": "An eye for pleasing design, a passion for fashion and love of all things DIY is what keeps Jenni Radosevich going. She started I Spy DIY in 2012 as a creative outlet; it has become a full-blown career. She is also doing a renovation of her old home, and the before and after pictures are incredible.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/I-Spy-DIY.jpg",
+      "blog": "I Spy DIY has some fantastic fashion hacks, tips, and tricks, and her home renovation results are stunning. The site has some smart home decor ideas. Not to mention DIY projects to suit all sorts of tastes."
+    },
+    {
+      "id": 37,
+      "title": "Lovely Indeed By Chelsea Foy",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Chelsea-Foy-From-Lovely-Indeed.jpg",
+      "desc": "Lovely Indeed is all about the things in life that are lovely and celebrating those things. Chelsea Foy, the founder of the site, is a hardcore DIYer and loves what she does. Her website covers all sorts of DIY topics, from travel to food to papercrafts. In her spare time, Chelsea loves traveling, exploring, photography, and spending time with those she loves.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Lovely-Indeed.jpg",
+      "blog": "If we could describe Lovely Indeed in only one word, it would be positiveness. The site’s design and Chelsea radiate positivity and friendliness, and it’s very genuine. The website is bright and colorful, and the DIY Projects are well worth doing."
+    },
+    {
+      "id": 38,
+      "title": "Tauni + Co by Tauni Everett",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Tauni-Everett-From-Tauni-Co.jpg",
+      "desc": "Tauni Everett was a public relations executive for many years, working for a variety of clients. But one day, a wake-up call came, and she decided to change her career. Tauni now has a job as a social media manager and runs an annual conference for bloggers. She likes home decor and DIY and shares her passions with the world on her site, Tauni + Co.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Tauni-Co.jpg",
+      "blog": "Amazing printables and themed projects galore! There is so much to see and create here. It can be hard to know where to start. Tauni puts a lot of effort into her blog, and it’s a joy to read."
+    },
+    {
+      "id": 39,
+      "title": "You Are My Fave by Melanie Blogett",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Melanie-Blodgett-From-You-Are-My-Fave.jpg",
+      "desc": "Melanie Blodgett loves nothing more than throwing parties and blogging about her experiences, and how you can throw your own. A family, fun and friends orientated soul. This shows up in her writing. Please note this site is no longer active, but it is still working and has some great content, so well worth a look.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/You-Are-My-Fave.jpg",
+      "blog": "Though her site was primarily focused on parties and how to throw them, she has a selection of great DIY projects. Colourful and bright, they’re well worth doing."
+    },
+    {
+      "id": 40,
+      "title": "ModPodge Rocks! By Amy Anderson",
+      "img": "https://craftylikegranny.com/wp-content/uploads/2018/09/Amy-Anderson-From-Modge-Podge-Rocks.jpg",
+      "desc": "Amy loves nothing more than crafting and adding that extra bit of color to her life. With her blog, Mod Podge Rocks, she aims to do that, one colorful creation at a time. She posts all kinds of fun DIY tutorials made using the very versatile material, Mod Podge. There is plenty of themed content, and there’s a lot of tutorials on the site, so well worth a look.",
+      "img1": "https://craftylikegranny.com/wp-content/uploads/2018/09/Mod-Podge-Rocks.jpg",
+      "blog": "Mod Podge is a versatile material. The best thing is it doesn’t make to much mess when used by enthusiastic kids. Her craft ideas are perfect for younger ones, bright, colorful and fun."
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "img": "https://i.etsystatic.com/20928740/r/il/1eca12/3945621807/il_570xN.3945621807_jevw.jpg",
+      "desc": "A Rich Tapestry of Cultural Heritage:",
+      "price": 145,
+      "rating": 4.5,
+      "category":"art"
+    },
+    {
+      "id": 2,
+      "img": "https://i.ytimg.com/vi/3bySyzxcpe4/maxresdefault.jpg",
+      "desc": "The Renaissance of Handmade Crafts:",
+      "price": 545,
+      "rating": 3.5,
+      "category":"craft"
+    },
+    {
+      "id": 3,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyyBzGok7jfk9lyZskESnD-eZYSMwfCpQFOYmb0NsLtAZ5WgcW0PNZT-TxKDXadBq6j7U&usqp=CAU",
+      "desc": "Art Therapy: Healing through Creativity:",
+      "price": 235,
+      "rating": 2.5,
+      "category":"art"
+    },
+    {
+      "id": 4,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8coNLeE-RicsjpMuA0UMo9zkbS2zWGYOIW4GMfGVwauXdAAsqdeK0kN8O8xrgsGdTkNE&usqp=CAU",
+      "desc": "Contemporary Art Movements: A Canvas of Ideas:",
+      "price": 135,
+      "rating": 2.5,
+      "category":"art"
+    },
+    {
+      "id": 5,
+      "img": "https://i.ytimg.com/vi/0jDCK_RHQuI/maxresdefault.jpg",
+      "desc": "DIY Crafts: Embracing Creativity at Home:",
+      "price": 235,
+      "rating": 3.5,
+      "category":"craft"
+    },
+    {
+      "id": 6,
+      "img": "https://i.ytimg.com/vi/xJPuXKxuN0c/maxresdefault.jpg",
+      "desc": "Preserving Traditional Crafts in a Modern World:",
+      "price": 435,
+      "rating": 4.5,
+      "category":"craft"
+    },
+    {
+      "id": 7,
+      "img": "https://i.ytimg.com/vi/MrzXcqrNNow/maxresdefault.jpg",
+      "desc": "Art and Craft in Education: Nurturing Young Minds:",
+      "price": 465,
+      "rating": 4.5,
+      "category":"art"
+    },
+    {
+      "id": 8,
+      "img": "https://jolinne.com/cdn/shop/products/51N_XaOyEdL_600x.jpg?v=1639983282",
+      "desc": "The Origins of Origami: Unfolding Centuries of History",
+      "price": 1235,
+      "rating": 2.5,
+      "category":"craft"
+    },
+    {
+      "id": 9,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9S17sb4igGi135sal0Td6PEI2esFpkeV_xw&usqp=CAU",
+      "desc": "The Beauty of Simplicity: Mehndi Art",
+      "price": 355,
+      "rating": 3.5,
+      "category":"art"
+    },
+    {
+      "id": 10,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Coloured%2C_textured_craft_card.jpg",
+      "desc": "Beyond Tradition: Modern Origami Craftistry: Paper Cards",
+      "price": 656,
+      "rating": 2.5,
+      "category":"craft"
+    },
+    {
+      "id": 11,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREZgz__5h6dmNqcFNiDhEcYsRs3Ggov8xEkg&usqp=CAU",
+      "desc": "Origami as Mindfulness: Folding Your Way to Serenity:",
+      "price": 135,
+      "rating": 2.5,
+      "category":"art"
+    },
+    {
+      "id": 12,
+      "img": "https://chaoticallyyours.com/wp-content/uploads/2021/05/Explosion-Card-5.jpg.webp",
+      "desc": "Mathematical Marvels: The Geometry of Origami:",
+      "price": 789,
+      "rating": 3.5,
+      "category":"craft"
+    },
+    {
+      "id": 13,
+      "img": "https://i.ytimg.com/vi/Jg-ZSi32vOQ/mqdefault.jpg",
+      "desc": "Origami in Space: Unfolding the Possibilities:",
+      "price": 365,
+      "rating": 4.5,
+      "category":"craft"
+    },
+    {
+      "id": 14,
+      "img": "https://twistedsifter.com/wp-content/uploads/2013/05/breaking-bad-coffee-cup-art-black-marker-cheeming-boey.jpg",
+      "desc": "Environmental Impact: The Sustainability of Cup Art:",
+      "price": 475,
+      "rating": 3.5,
+      "category":"art"
+    },
+    {
+      "id": 15,
+      "img": "https://www.incrediblegifts.in/wp-content/uploads/2021/10/Anniversary16x12.jpg",
+      "desc": "Origami Legends: Remembering Masters of the Craft: Photoframe",
+      "price": 565,
+      "rating": 2.5,
+      "category":"craft"
+    },
+    {
+      "id": 16,
+      "img": "https://i.pinimg.com/originals/8e/cf/fd/8ecffdf9882e59ba8e2481f6abad017c.jpg",
+      "desc": "Cultural Fusion: The Global Reach of Origami: Clay Art",
+      "price": 895,
+      "rating": 3.5,
+      "category":"art"
+    },
+    {
+      "id": 17,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2FjrQZeRP7Gc2kxSrINECeP6ilZ6kaqOVKscyBQQK4g-D22b5kryf1aat69ipBN_ruBU&usqp=CAU",
+      "desc": "Beyond Paper: Exploring Unconventional Origami Materials:",
+      "price": 567,
+      "rating": 2.5,
+      "category":"craft"
+    },
+    {
+      "id": 18,
+      "img": "https://i.pinimg.com/736x/9b/28/b8/9b28b83755d00209bf5b9355b9938b4e.jpg",
+      "desc": "Folding the Future: The Endless Possibilities of Origami:",
+      "price": 235,
+      "rating": 3.5,
+      "category":"craft"
+    },
+    {
+      "id": 19,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4WUYQMTtrXqTxh7JqJGfzJhWhVqiGEO-xIwSJJoUISV0WzI7bDvGZLa6hKfqBuZsxmT4&usqp=CAU",
+      "desc": "Origami as Community: Fostering Connections through Art: Sand",
+      "price": 876,
+      "rating": 4.5,
+      "category":"art"
+    },
+    {
+      "id": 20,
+      "img": "https://i.etsystatic.com/30289423/r/il/3afa96/4480345223/il_570xN.4480345223_f2tz.jpg",
+      "desc": "Origami and Storytelling: Folding Tales of Myth and Fantasy: Slime",
+      "price": 945,
+      "rating": 4.5,
+      "category":"craft"
+    }
+  ]
+}
