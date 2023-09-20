@@ -6,9 +6,9 @@ const Sidebar = () => {
   const [sort, setSort] = useState(searchSort.get("sort") || "");
   const [filter, setFilter] = useState("");
   const [rating, setRating] = useState([]);
+
   useEffect(() => {
     let params = {};
-
     sort && (params.order = sort);
     filter && (params.category = filter);
     rating.length > 0 && (params.rating = rating.join(","));
