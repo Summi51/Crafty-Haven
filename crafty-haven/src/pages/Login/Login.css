@@ -1,0 +1,9 @@
+.inputBox {
+width: 200px;
+border: 2px solid blue;
+}
+
+.inputBox input {
+    width: 200px;
+    border: 2px solid rgb(9, 255, 0);
+    }

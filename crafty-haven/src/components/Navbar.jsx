@@ -15,13 +15,45 @@ import {
   useColorMode,
   useDisclosure,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useState , useEffect} from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import CraftyHaven from "../Image/CraftyHaven.png";
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [placement, setPlacement] = useState("left");
   const { colorMode, toggleColorMode } = useColorMode();
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+
+  useEffect(() => {
+    // Check the token on initial render
+    const token = localStorage.getItem("token");
+    setIsAuthenticated(!!token);
+
+    // Listen for changes in localStorage
+    const handleStorageChange = () => {
+      const updatedToken = localStorage.getItem("token");
+      setIsAuthenticated(!!updatedToken);
+    };
+
+    window.addEventListener("storage", handleStorageChange);
+    return () => {
+      window.removeEventListener("storage", handleStorageChange);
+    };
+  }, []);
+
+  const handleAuthToggle = () => {
+    if (isAuthenticated) {
+      // Logout logic
+      localStorage.removeItem("token");
+      alert("You have been logged out.");
+      setIsAuthenticated(false);
+    } else {
+      // Redirect to login page
+      window.location.href = "/login";
+    }
+  };
+    
 
   return (
     <>
@@ -246,9 +278,14 @@ const Navbar = () => {
             {colorMode === "light" ? <MoonIcon /> : <SunIcon color={'black'}/>}
           </Button>
 
-          <Button background={"#8C67E6"}>
+          {/* <Button background={"#8C67E6"}>
             <Link href="/login">Login</Link>
-          </Button>
+          </Button> */}
+
+        <Button background={"#8C67E6"} onClick={handleAuthToggle}>
+          {isAuthenticated ? "Logout" : "Login"}
+        </Button>
+
         </Flex>
       </Box>
     </>

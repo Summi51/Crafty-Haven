@@ -6,11 +6,11 @@ import CraftBlog from "../../pages/CraftBlog";
 import SingleCartMainContent from "../../pages/CraftBlogHome/SingleCartMainContent";
 import DrawingBlog from "../../pages/DrawingBlog";
 import Home from "../../pages/Home";
-import Login from "../../pages/Login";
+import Login from "../../pages/Login/Login";
 import Getdatahome from "../../pages/OtherPages/Getdatahome";
 import SingleGetdatahome from "../../pages/OtherPages/SingleGetdatahome";
 import Product from "../../pages/Product";
-import Signup from "../../pages/Signup";
+import Signup from "../../pages/Register/Signup";
 const AllRoutes = () => {
   return (
     <div>
