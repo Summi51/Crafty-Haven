@@ -6,9 +6,14 @@ import CraftBlog from "../../pages/CraftBlog";
 import SingleCartMainContent from "../../pages/CraftBlogHome/SingleCartMainContent";
 import DrawingBlog from "../../pages/DrawingBlog";
 import Home from "../../pages/Home";
+import Cart from "../../pages/Cart/Cart";
+import Checkout from "../../pages/Checkout/Checkout";
 import Login from "../../pages/Login/Login";
+import OrderDetail from "../../pages/Orders/OrderDetail";
+import Orders from "../../pages/Orders/Orders";
 import Getdatahome from "../../pages/OtherPages/Getdatahome";
 import SingleGetdatahome from "../../pages/OtherPages/SingleGetdatahome";
+import SingleProduct from "../../pages/BuyProductOnline/SingleProduct";
 import Product from "../../pages/Product";
 import Signup from "../../pages/Register/Signup";
 const AllRoutes = () => {
@@ -17,6 +22,7 @@ const AllRoutes = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/product/:id" element={<SingleProduct />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/drawblog" element={<DrawingBlog />} />
         <Route path="/craftblog" element={<CraftBlog />} />
@@ -26,6 +32,10 @@ const AllRoutes = () => {
         <Route path="/gethome/:getid" element={<SingleGetdatahome />} />
         <Route path="/gethome" element={<Getdatahome />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/orders" element={<Orders />} />
+        <Route path="/orders/:orderId" element={<OrderDetail />} />
       </Routes>
     </div>
   );

@@ -8,7 +8,7 @@ const SingleGetdatahome = () => {
 
   const getHomeFn = (id) => {
     axios
-      .get(`https://user-details-pww9.onrender.com/crafty/${id}`)
+      .get(`http://localhost:8080/api/crafty/${id}`)
       .then((data) => {
         //  console.log(data.data);
         return setSingleHome(data);

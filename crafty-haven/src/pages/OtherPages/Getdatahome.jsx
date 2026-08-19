@@ -7,9 +7,8 @@ const Getdatahome = () => {
   const [data, setData] = useState([]);
 
   const getData = () => {
-    axios.get(`https://user-details-pww9.onrender.com/crafty`).then((res) => {
-      console.log(res.data);
-      setData(res.data);
+    axios.get(`http://localhost:8080/api/crafty`).then((res) => {
+      setData((res.data || []).slice(0, 6));
     });
   };
 
@@ -25,7 +24,9 @@ const Getdatahome = () => {
         fontFamily={"Tangerine, cursive"}
         textDecoration={"underline double 1px"}
         fontStyle={"italic"}
-        fontSize={"50px"}
+        fontSize={{ base: "28px", md: "50px" }}
+        px={3}
+        textAlign="center"
         fontWeight={"bold"}
       >
        Unleashing Creativity through Craftsmanship

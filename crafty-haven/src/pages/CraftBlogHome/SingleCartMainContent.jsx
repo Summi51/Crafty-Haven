@@ -12,7 +12,7 @@ const SingleCartMainContent = () => {
   // const [vali] = useState(val)
 
   const singleblogGet = (id) => {
-    axios.get(`https://user-details-pww9.onrender.com/craftblogs/${id}`).then((data) => {
+    axios.get(`http://localhost:8080/api/craftblogs/${id}`).then((data) => {
       console.log(data);
       return setsingleblog(data);
     });
@@ -22,13 +22,16 @@ const SingleCartMainContent = () => {
   }, [params.singleid]);
 
   return (
-    <Box pt={"50px"} w={"80%"} m={"auto"}>
+    <Box pt={{ base: 6, md: "50px" }} w={{ base: "94%", md: "80%" }} m={"auto"}>
       <Box mb={"20px"}>
         <Link href="/">
           <Image
             mx="auto"
+            maxW="100%"
             src="https://craftychica.com/wp-content/uploads/2023/03/chica-email-opt-in-button-jpeg.webp"
             alt="img"
+            loading="lazy"
+            decoding="async"
           />
         </Link>
       </Box>

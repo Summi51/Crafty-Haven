@@ -18,11 +18,13 @@ import {
 import React, { useState , useEffect} from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import CraftyHaven from "../Image/CraftyHaven.png";
+import { useCart } from "./Context/CartContext";
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [placement, setPlacement] = useState("left");
   const { colorMode, toggleColorMode } = useColorMode();
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const { count, clearLocalCart } = useCart();
 
 
   useEffect(() => {
@@ -46,6 +48,8 @@ const Navbar = () => {
     if (isAuthenticated) {
       // Logout logic
       localStorage.removeItem("token");
+      localStorage.removeItem("user");
+      clearLocalCart();
       alert("You have been logged out.");
       setIsAuthenticated(false);
     } else {
@@ -211,6 +215,16 @@ const Navbar = () => {
                       Contact
                     </Link>
                   </Box>
+                  <Box mb={"20px"}>
+                    <Link href="/cart" color={"#8C67E6"} fontWeight={"medium"}>
+                      Cart{count > 0 ? ` (${count})` : ""}
+                    </Link>
+                  </Box>
+                  <Box mb={"20px"}>
+                    <Link href="/orders" color={"gray"} fontWeight={"medium"}>
+                      Orders
+                    </Link>
+                  </Box>
                   {/* <Box mb={"6px"}>
                     <MdLightMode color="gray" />
                   </Box> */}
@@ -258,6 +272,18 @@ const Navbar = () => {
           <Box pt="20px" display={["none", "none", "block", "block"]}>
             <Link href="/contact" color={"gray"} fontWeight={"medium"}>
               Contact
+            </Link>
+          </Box>
+
+          <Box pt="20px" display={["none", "none", "block", "block"]}>
+            <Link href="/cart" color={"#8C67E6"} fontWeight={"medium"}>
+              Cart{count > 0 ? ` (${count})` : ""}
+            </Link>
+          </Box>
+
+          <Box pt="20px" display={["none", "none", "block", "block"]}>
+            <Link href="/orders" color={"gray"} fontWeight={"medium"}>
+              Orders
             </Link>
           </Box>
 

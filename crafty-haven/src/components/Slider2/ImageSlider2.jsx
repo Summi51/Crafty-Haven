@@ -12,46 +12,35 @@ import img6 from "../../Image/img6.jpg";
 import img8 from "../../Image/img8.jpg";
 import img9 from "../../Image/img9.jpg";
 import "../Slider2/styles.css";
-import {
-  Autoplay,
-  Keyboard,
-  Mousewheel,
-  Navigation,
-  Pagination,
-} from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 const ImageSlider2 = () => {
   return (
-    <Box w={"100%"} h={"100%"} >
+    <Box w="100%" maxH={{ base: "220px", md: "420px" }} overflow="hidden">
       <Swiper
-        slidesPreView={1}
+        slidesPerView={1}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
         loop={true}
-        cssMode={true}
         navigation={true}
         pagination={true}
-        mousewheel={true}
-        keyboard={true}
-        modules={[Navigation, Autoplay, Pagination, Mousewheel, Keyboard]}
+        modules={[Navigation, Autoplay, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <Image src={img1} w={"100%"} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={img3} w={"100%"} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={img6} w={"100%"}/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={img8} w={"100%"}/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={img9} w={"100%"} />
-        </SwiperSlide>
+        {[img1, img3, img6, img8, img9].map((src, index) => (
+          <SwiperSlide key={src}>
+            <Image
+              src={src}
+              w="100%"
+              h={{ base: "220px", md: "420px" }}
+              objectFit="cover"
+              alt={`banner ${index + 1}`}
+              loading={index === 0 ? "eager" : "lazy"}
+              decoding="async"
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </Box>
   );

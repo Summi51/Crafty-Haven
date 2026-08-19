@@ -2,112 +2,60 @@ import { Box, Text } from "@chakra-ui/react";
 import React from "react";
 const VideoPlayer = () => {
   return (
-    <Box>
-      <Box
-        width={"80%"}
-        m={"auto"}
-        display={["none", "none", "block", "block"]}
-      >
-         <Box  width={'100%'} m={'auto'} textAlign={'center'}>
-          <Text mt="30px" mb={'50px'}
-            color={"#7F508B"}
-            backgroundImage={"linear-gradient(pink, #9797ED)"}
-            mx={'auto'}
-            fontFamily={"Tangerine, cursive"}
-            textDecoration={"underline double 1px"}
-            fontStyle={"italic"}
-            fontSize={"35px"}
-            fontWeight={"bold"}
-          >
-            Art Telent
-          </Text>
-        </Box>
-        <iframe
+    <Box width={{ base: "94%", md: "80%" }} m="auto">
+      <Box width="100%" m="auto" textAlign="center">
+        <Text
+          mt="30px"
+          mb={{ base: 6, md: "50px" }}
+          color={"#7F508B"}
+          backgroundImage={"linear-gradient(pink, #9797ED)"}
           mx="auto"
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/UO1qql_4WSA"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      
-        <Box  width={'100%'} m={'auto'} textAlign={'center'}>
-          <Text mt="30px" mb={'50px'}
-            color={"#7F508B"}
-            backgroundImage={"linear-gradient(pink, #9797ED)"}
-            mx={'auto'}
-            fontFamily={"Tangerine, cursive"}
-            textDecoration={"underline double 1px"}
-            fontStyle={"italic"}
-            fontSize={"35px"}
-            fontWeight={"bold"}
-          >
-            Crafty Telent
-          </Text>
-        </Box>
-        <iframe
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/FI9bSab16A4"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+          fontFamily={"Tangerine, cursive"}
+          textDecoration={"underline double 1px"}
+          fontStyle={"italic"}
+          fontSize={{ base: "26px", md: "35px" }}
+          fontWeight={"bold"}
+        >
+          Art Telent
+        </Text>
       </Box>
+      <Box as="iframe"
+        title="YouTube video player"
+        src="https://www.youtube.com/embed/UO1qql_4WSA"
+        w="100%"
+        h={{ base: "220px", md: "315px" }}
+        border="0"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      />
 
-      {/* small screen */}
-      <Box display={["block", "block", "none", "none"]}>
-      <Box  width={'100%'} m={'auto'} textAlign={'center'}>
-          <Text mt="30px" mb={'50px'}
-            color={"#7F508B"}
-            backgroundImage={"linear-gradient(pink, #9797ED)"}
-            mx={'auto'}
-            fontFamily={"Tangerine, cursive"}
-            textDecoration={"underline double 1px"}
-            fontStyle={"italic"}
-            fontSize={"35px"}
-            fontWeight={"bold"}
-          >
-            Art Telent
-          </Text>
-        </Box>
-        <iframe
+      <Box width="100%" m="auto" textAlign="center">
+        <Text
+          mt="30px"
+          mb={{ base: 6, md: "50px" }}
+          color={"#7F508B"}
+          backgroundImage={"linear-gradient(pink, #9797ED)"}
           mx="auto"
-          width="250px"
-          height="225px"
-          src="https://www.youtube.com/embed/UO1qql_4WSA"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <Box  width={'100%'} m={'auto'} textAlign={'center'}>
-          <Text mt="50px" mb={'50px'}
-            color={"#7F508B"}
-            backgroundImage={"linear-gradient(pink, #9797ED)"}
-            mx={'auto'}
-            fontFamily={"Tangerine, cursive"}
-            textDecoration={"underline double 1px"}
-            fontStyle={"italic"}
-            fontSize={"35px"}
-            fontWeight={"bold"}
-          >
-            Crafty Telent
-          </Text>
-        </Box>
-        <iframe
-          width="250px"
-          height="225px"
-          src="https://www.youtube.com/embed/FI9bSab16A4"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+          fontFamily={"Tangerine, cursive"}
+          textDecoration={"underline double 1px"}
+          fontStyle={"italic"}
+          fontSize={{ base: "26px", md: "35px" }}
+          fontWeight={"bold"}
+        >
+          Crafty Telent
+        </Text>
       </Box>
+      <Box as="iframe"
+        title="YouTube video player"
+        src="https://www.youtube.com/embed/FI9bSab16A4"
+        w="100%"
+        h={{ base: "220px", md: "315px" }}
+        border="0"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      />
     </Box>
   );
 };

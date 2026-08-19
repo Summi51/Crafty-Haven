@@ -11,14 +11,17 @@ import "./styles.css";
 const ImageSlider1 = () => {
   return (
     <>
-      <Text mt={'50px'}
+      <Text
+        mt={{ base: 8, md: "50px" }}
         color={"#7F508B"}
         backgroundImage={"linear-gradient(pink, #9797ED)"}
         fontFamily={"Tangerine, cursive"}
         textDecoration={"underline double 1px"}
         fontStyle={"italic"}
-        fontSize={"50px"}
+        fontSize={{ base: "28px", md: "50px" }}
         fontWeight={"bold"}
+        textAlign="center"
+        px={3}
       >
        Where Reality Meets Magic
       </Text>
@@ -38,30 +41,21 @@ const ImageSlider1 = () => {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-1.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-3.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-4.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-5.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-6.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-7.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
+        {[
+          "https://swiperjs.com/demos/images/nature-1.jpg",
+          "https://swiperjs.com/demos/images/nature-2.jpg",
+          "https://swiperjs.com/demos/images/nature-3.jpg",
+          "https://swiperjs.com/demos/images/nature-4.jpg",
+        ].map((src, index) => (
+          <SwiperSlide key={src}>
+            <Image
+              src={src}
+              alt={`craft slide ${index + 1}`}
+              loading={index === 0 ? "eager" : "lazy"}
+              decoding="async"
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );

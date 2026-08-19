@@ -19,6 +19,7 @@ import {
   useToast
 } from "@chakra-ui/react";
 import logoImage from "../../Image/CraftyHaven.png";
+import { useCart } from "../../components/Context/CartContext";
 
 // Custom SVG Icons matching the glassmorphic design
 const MailIcon = () => (
@@ -43,6 +44,7 @@ const Login = () => {
   const navigate = useNavigate();
   const [message, setMessage] = useState("");
   const toast = useToast();
+  const { loadCart } = useCart();
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -56,7 +58,10 @@ const Login = () => {
         password: formData.password,
       });
       localStorage.setItem("token", response.data.token);
-      console.log(response.data.token);
+      if (response.data.user) {
+        localStorage.setItem("user", JSON.stringify(response.data.user));
+      }
+      await loadCart();
       setMessage("Login successful!");
       toast({
         duration: 3000,

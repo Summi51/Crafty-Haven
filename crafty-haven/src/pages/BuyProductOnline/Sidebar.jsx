@@ -17,13 +17,13 @@ const Sidebar = () => {
 
   return (
     <Box
-      mt={"50px"}
-      mb={"50px"}
+      mt={{ base: 6, lg: "50px" }}
+      mb={{ base: 0, lg: "50px" }}
       border={"1.5px solid teal"}
       p={4}
       borderRadius="md"
       boxShadow="md"
-      w={"70%"}
+      w="100%"
     >
       <Box mb={4}>
         <Text fontSize="lg" fontWeight="bold" color="teal.600" mb={2}>
@@ -44,16 +44,27 @@ const Sidebar = () => {
         <Text fontSize="lg" fontWeight="bold" color="teal.600" mb={2}>
           Choose Category
         </Text>
-        <Flex flexDirection="column">
+        <Flex flexDirection="column" gap={1}>
+          <label>
+            <input
+              onChange={() => setFilter("")}
+              checked={filter === ""}
+              type="radio"
+              name="category"
+            />
+            <Text as="span" fontSize="md" ml={2}>
+              All
+            </Text>
+          </label>
           <label>
             <input
               onChange={(e) => setFilter(e.target.value)}
               value="art"
+              checked={filter === "art"}
               type="radio"
               name="category"
             />
-
-            <Text fontSize="md" ml={2}>
+            <Text as="span" fontSize="md" ml={2}>
               Art
             </Text>
           </label>
@@ -61,10 +72,11 @@ const Sidebar = () => {
             <input
               onChange={(e) => setFilter(e.target.value)}
               value="craft"
+              checked={filter === "craft"}
               type="radio"
               name="category"
             />
-            <Text fontSize="md" ml={2}>
+            <Text as="span" fontSize="md" ml={2}>
               Craft
             </Text>
           </label>
@@ -74,7 +86,7 @@ const Sidebar = () => {
         <Text fontSize="lg" fontWeight="bold" color="teal.600" mb={2}>
           Filter by Rating
         </Text>
-        <Flex>
+        <Flex wrap="wrap" gap={2}>
           <Button
             onClick={() => setRating(["2.5"])}
             size="sm"

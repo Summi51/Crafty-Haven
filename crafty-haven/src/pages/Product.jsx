@@ -5,12 +5,17 @@ import Sidebar from "./BuyProductOnline/Sidebar";
 
 const Product = () => {
   return (
-    <Box width={"90%"} m={"auto"}>
-      <Flex justify="space-between">
-        <Box flex="0 0 25%">
+    <Box width={{ base: "94%", md: "90%" }} maxW="1200px" m="auto" px={{ base: 1, md: 0 }}>
+      <Flex
+        direction={{ base: "column", lg: "row" }}
+        justify="space-between"
+        align="flex-start"
+        gap={{ base: 4, lg: 8 }}
+      >
+        <Box w={{ base: "100%", lg: "260px" }} flexShrink={0}>
           <Sidebar />
         </Box>
-        <Box flex="1">
+        <Box flex="1" w="100%" minW={0}>
           <MainProduct />
         </Box>
       </Flex>

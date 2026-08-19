@@ -6,9 +6,8 @@ const CraftMainContent = () => {
   const [craft, setCraft] = useState([]);
 
   const getCraft = () => {
-    axios.get(`https://user-details-pww9.onrender.com/craftblogs`).then((res) => {
-      console.log(res.data);
-      setCraft(res.data);
+    axios.get(`http://localhost:8080/api/craftblogs`).then((res) => {
+      setCraft((res.data || []).slice(0, 8));
     });
   };
   useEffect(() => {
@@ -16,7 +15,7 @@ const CraftMainContent = () => {
   }, []);
 
   return (
-    <Box w={"80%"} mt={"50px"} m={"auto"}>
+    <Box w={{ base: "92%", md: "80%" }} mt={"50px"} m={"auto"}>
       <Box>
         <Text fontSize={"20px"} textAlign={"left"} mb={"15px"}>
           Here are the best craft blogs!
