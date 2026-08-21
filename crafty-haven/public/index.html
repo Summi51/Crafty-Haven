@@ -25,6 +25,19 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- Zealoop messenger -->
+    <script>
+      window.zealoop = { publicKey: "pk_live_5651c7c160dda12dc00a0f44", apiUrl: "https://api.zealoop.com" };
+      (function () {
+        var i = function () { i.q.push(arguments); };
+        i.q = [];
+        window.Zealoop = i;
+        var s = document.createElement("script");
+        s.async = true;
+        s.src = "https://api.zealoop.com/widget.js";
+        document.body.appendChild(s);
+      })();
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

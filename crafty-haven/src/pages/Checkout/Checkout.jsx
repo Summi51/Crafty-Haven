@@ -24,6 +24,7 @@ const Checkout = () => {
   const { items, total, loading, loadCart, clearLocalCart } = useCart();
   const [form, setForm] = useState({ name: "", phone: "", address: "", pincode: "" });
   const [shipping, setShipping] = useState("standard");
+  const [payMethod, setPayMethod] = useState("razorpay");
   const [saving, setSaving] = useState(false);
   const navigate = useNavigate();
   const toast = useToast();
@@ -49,10 +50,15 @@ const Checkout = () => {
     const res = await placeOrder({
       ...form,
       shippingMethod: shipping,
+      paymentMethod: payMethod,
       ...payment,
     });
     clearLocalCart();
-    toast({ title: "Payment successful. Order placed", status: "success", duration: 2500 });
+    toast({
+      title: payMethod === "cod" ? "Order placed. Pay cash on delivery." : "Payment successful. Order placed",
+      status: "success",
+      duration: 2500,
+    });
     navigate(`/orders/${res.data.order.orderId}`);
   };
 
@@ -60,6 +66,11 @@ const Checkout = () => {
     e.preventDefault();
     try {
       setSaving(true);
+      if (payMethod === "cod") {
+        await finishOrder({});
+        return;
+      }
+
       const payRes = await createPayment({ ...form, shippingMethod: shipping });
       const { keyId, amount, currency, razorpayOrderId } = payRes.data;
       let user = {};
@@ -69,7 +80,7 @@ const Checkout = () => {
 
       if (!window.Razorpay) {
         setSaving(false);
-        toast({ title: "Razorpay failed to load. Refresh and try again.", status: "error" });
+        toast({ title: "Payment failed to load. Refresh and try again.", status: "error" });
         return;
       }
 
@@ -150,7 +161,16 @@ const Checkout = () => {
               <Radio value="express">Express (1-2 days) — ₹99</Radio>
             </Stack>
           </RadioGroup>
-          <Button type="submit" colorScheme="purple" w="100%" isLoading={saving}>Pay & Place Order</Button>
+          <Heading size="sm" mb={3}>Payment</Heading>
+          <RadioGroup value={payMethod} onChange={setPayMethod} mb={6}>
+            <Stack>
+              <Radio value="razorpay">Razorpay (Card / UPI / Netbanking)</Radio>
+              <Radio value="cod">Cash on Delivery (COD)</Radio>
+            </Stack>
+          </RadioGroup>
+          <Button type="submit" colorScheme="purple" w="100%" isLoading={saving}>
+            {payMethod === "cod" ? "Place Order" : "Pay & Place Order"}
+          </Button>
         </Box>
         <Box flex="1" border="1px solid #eee" borderRadius="lg" p={6} w="100%">
           <Heading size="sm" mb={4}>Order summary</Heading>
